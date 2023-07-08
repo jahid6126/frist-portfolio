@@ -114,6 +114,10 @@ nav {
 
 
 /* main section style */
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
 
 
 
@@ -140,4 +144,10 @@ nav {
     font-weight: 400;
     line-height: 30px;
 }
-
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
