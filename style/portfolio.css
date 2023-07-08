@@ -151,3 +151,22 @@ main{
 .about-info{
     text-align: center;
 }
+/* section what i do */
+#what-i-can-do{
+
+    padding: 30px 150px;
+
+}
+
+/* what i do related style */
+
+.skill-container{
+    display: flex;
+    
+}
+
+.skills{
+    padding: 30px ;
+    gap: 24px;
+    
+}
