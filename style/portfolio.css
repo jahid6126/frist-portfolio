@@ -114,9 +114,13 @@ nav {
 
 
 /* main section style */
-main{
+main {
     margin: 0 auto;
     max-width: 1140px;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 
@@ -144,15 +148,18 @@ main{
     font-weight: 400;
     line-height: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
+
 /* section what i do */
-#what-i-can-do{
+#what-i-can-do {
 
     padding: 30px 150px;
 
@@ -160,13 +167,31 @@ main{
 
 /* what i do related style */
 
-.skill-container{
+.skill-container {
     display: flex;
-    
+    gap: 24px;
+
 }
 
-.skills{
-    padding: 30px ;
-    gap: 24px;
+.skills {
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-discription {
+    color: #757575;
+}
+
+/* resume style section */
+.resume-colum-title {
+    color:  #474747;
+    
+    font-size: 30px;
+    
+    font-weight: 700;
     
 }
